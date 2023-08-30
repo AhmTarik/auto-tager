@@ -1,19 +1,12 @@
 # HackerNews Insights API service
 
+HackerNews Insights API: Unveiling Trends in Story Titles
+Discover meaningful trends and insights within HackerNews story titles with our HackerNews Insights API
+
 ### Prepare ENV variables
 
 1. Create `.env` file - `cp ./dotenv ./.env`
 2. Fill all env variables
-
-## Docs
-
-- [Getting Started](./docs/guide.md)
-- [Connecting to MongoDB](./docs/mongo.md)
-- [Protect your APIs with JWT Token](./docs/auth.md)
-- [Dealing with model relations](./docs/model.md)
-- [Externalizing the configuration](./docs/config.md)
-- [Handling user registration](./docs/user.md)
-- [Testing Nestjs applications](./docs/testing.md)
 
 ### Install dependencies
 
