@@ -6,18 +6,11 @@ import { StoryRepository } from "../repository/story.repository";
 import { UserCacheService } from "./user-cache.service";
 import { LoggerService } from "../logger/logger.service";
 import { HttpModule } from "@nestjs/axios";
-import { StoryModule } from "../module/story.module";
 
 describe("StoryService", () => {
   let service: StoryService;
   let logger: LoggerService;
   let storyRepository: StoryRepository;
-  const mockTopStoryIds = [
-    37315292, 37311975, 37315815, 37309818, 37302176, 37314526, 37312385,
-    37310746, 37315802, 37315208, 37303365, 37313293, 37307708, 37308405,
-    37314622, 37311508, 37307473, 37313183, 37306018, 37314867, 37313493,
-    37305800, 37312523, 37308747, 37310070,
-  ];
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
